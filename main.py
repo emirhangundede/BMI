@@ -39,7 +39,6 @@ def bmi_calculate():
         calculate_label.config(text=f"You are Obese:{calculate}")
         calculate_label.pack()
 
-
 calculate_button = tkinter.Button(text="Calculate", command=bmi_calculate)
 calculate_button.pack()
 
